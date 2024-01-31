@@ -1,0 +1,126 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #3494e6, #ec6ead);
+}
+
+header {
+    height: 80%;
+    width: 35%;
+    background-color: #aecbe6;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #0881f3;
+}
+
+img {
+    height: 6rem;
+    mix-blend-mode: multiply;
+}
+
+.display {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.display input {
+    height: 90%;
+    width: 90%;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.2rem;
+
+}
+
+.length {
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    padding-right: 1.2rem;
+    font-weight: bold;
+    /* padding: 5px; */
+}
+
+.length input {
+    height: 100%;
+    width: 20%;
+    padding-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+}
+
+.types div {
+    margin: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.types {
+    margin-top: 10px;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button {
+    float: right;
+    height: 2rem;
+    width: 80%;
+    margin: 30px 30px 10px 20px;
+    background-color: #78afe4;
+    border-radius: 5px;
+    border: 1px solid #4698e6;
+}
+
+button:hover {
+    background-color: #0881f3;
+}
+
+@media (max-width:600px) {
+    header {
+        width: 80%;
+        height: 58%;
+    }
+    button{
+        margin-top: 50px;
+    }
+}
